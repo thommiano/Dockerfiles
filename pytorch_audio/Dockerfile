@@ -50,3 +50,5 @@ RUN pip install cffi
 RUN cd ./audio && python setup.py install
 RUN pip install librosa
 RUN pip install sounddevice
+RUN pip install git+https://github.com/pytorch/tnt.git@master
+RUN pip install opencv-python
